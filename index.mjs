@@ -87,6 +87,8 @@ const fetchCars = async () => {
     isFirstRun = true;
     storedCarIds.clear(); // Clear stored car IDs to start fresh
   }
+      console.log("started!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+
 };
 
 // Run the fetch function every 5 minutes
