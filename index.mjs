@@ -29,7 +29,7 @@ const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
 
 let storedCarIds = new Map();
 let isFirstRun = true;
-
+bot.sendMessage(CHAT_ID, `New car found`);
 const fetchCars = async () => {
   try {
     // Initialize page number
